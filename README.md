@@ -10,3 +10,14 @@ The figure below shows a star-dome like 3D truss with 24 bars of different cross
 The geometry is defined by a random set of 24 different cross section areas. Then, the structure is loaded and analysed in the commercial FE software Abaqus. A table with displacement of the central node and reactions - is provided as output.
 
 For the NN, the areas are the input data and the displacements  and reactions are the output.
+
+## Data Upload
+
+Uploading four files:
+1. the dataset containing the areas, `areas24.csv`;
+2. displacements and reaction force along the time, `FinalResult.csv`;
+
+If you prefer generate new data, we suggest to use the student version of the software [Abaqus](https://edu.3ds.com/en/software/abaqus-student-edition). The following files are available here:
+ 1. To generate random areas `gera_areas_24.py`;
+ 2. Script to run in Abaqus to generate data `24-bar-truss.py`;
+ 3. Basic geometry to be called by the script mentioned in item 2 `Job-24-bar.inp`.
