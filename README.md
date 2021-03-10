@@ -13,14 +13,14 @@ For the NN, the areas are the input data and the displacements  and reactions ar
 
 ## Data Upload
 
-Three files are available to upload:
+Three files are available to upload in the folder *Datasets*:
 1. the dataset containing the areas, `areas24.csv`;
 2. displacements and reaction force along the time, `FinalResult.csv`;
 3. the dataset with all models with snap-back instability behaviour,  `Snapback.csv`.
 
 See that `FinalResult.csv` is a huge file, so, it is compressed into 2 parts.
 
-If you prefer to generate your own data, we suggest to use the student version of the software [Abaqus](https://edu.3ds.com/en/software/abaqus-student-edition). The following files are available here:
+If you prefer to generate your own data, we suggest to use the student version of the software [Abaqus](https://edu.3ds.com/en/software/abaqus-student-edition). The following files are available here in the folder *DatasetGeneration*:
  1. To generate random areas `gera_areas_24.py`;
  2. Script to run in Abaqus to generate data `24-bar-truss.py`;
  3. Basic geometry to be called by the script mentioned in item 2 `Job-24-bar.inp`.
