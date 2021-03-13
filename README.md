@@ -21,7 +21,7 @@ Three files are available to upload in the folder *Datasets*:
 See that `FinalResult.csv` is a huge file, so, it is compressed into 2 parts.
 
 If you prefer to generate your own data, we suggest to use the student version of the software [Abaqus](https://edu.3ds.com/en/software/abaqus-student-edition). The following files are available here in the folder *DatasetGeneration*:
- 1. To generate random areas `gera_areas_24.py`;
+ 1. To generate random areas `generate_areas_24.py`;
  2. Script to run in Abaqus to generate data `24bar.py`;
  3. Basic geometry to be called by the script mentioned in item 2 `Job-24bar.inp`.
 
