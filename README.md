@@ -24,4 +24,5 @@ If you prefer to generate your own data, we suggest to use the student version o
  1. To generate random areas `gera_areas_24.py`;
  2. Script to run in Abaqus to generate data `24bar.py`;
  3. Basic geometry to be called by the script mentioned in item 2 `Job-24bar.inp`.
+
 The file `areas24_10000` has all 10,000 area combinations. 
