@@ -1,5 +1,5 @@
 # FEA-using-DNN
-The input data is generated via FEA to train a DNN. The DNN learns the curve force-displacement. The complete instructions are available in the \link{https://link.springer.com/article/10.1007/s00500-023-09491-0}
+The input data is generated via FEA to train a DNN. The DNN learns the curve force-displacement. The complete instructions are available in the link https://link.springer.com/article/10.1007/s00500-023-09491-0
 
 Driemeier, L., Cabral, E.L.L., Rodrigues, G.L. et al. On the use of AI for metamodeling: a case study of a 3D bar structure. Soft Comput (2023). https://doi.org/10.1007/s00500-023-09491-0
 
